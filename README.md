@@ -6,8 +6,6 @@ hudi-trino-integeration-guide
 
 # Ingest Code 
 ```
-
-```
 try:
     import os
     import sys
@@ -144,6 +142,7 @@ spark_df.write.format("hudi"). \
 
 ```
 
+```
 %load_ext sql
 %sql trino://admin@localhost:8080/default
 %sql USE hudi.default
